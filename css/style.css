@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-color: #b5c9c3;
+}
+
+:root {
+  --oswald: "Oswald", sans-serif;
+  --bebasNeue: "Bebas Neue", sans-serif;
+  --notoSans: "Noto Sans Bengali", sans-serif;
+}
+
+#main-box {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background-color: #44355b;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+h1 {
+  font-family: var(--bebasNeue);
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: #ee5622;
+  padding-bottom: 20px;
+}
+
+#value1 {
+  height: 40px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-color: #31263e;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-left: 20px;
+  color: #ee5522a9;
+}
+#value2 {
+  height: 40px;
+  width: 250px;
+  background-color: #31263e;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-left: 20px;
+  color: #ee5522a9;
+}
+
+::placeholder {
+  color: #ee55226b;
+}
+
+#btn {
+  height: 40px;
+  width: 250px;
+  background-color: #eca72c;
+  border: 0;
+  color: #221e22;
+  font-family: var(--oswald);
+  font-size: 16px;
+  margin-top: 30px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #c49139;
+}
+
+p {
+  font-size: 20px;
+  font-family: var(--notoSans);
+  background-color: #c49139;
+  color: #221e22;
+  text-align: center;
+  top: 85%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  font-weight: 600;
+}
